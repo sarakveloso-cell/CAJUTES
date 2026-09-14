@@ -828,8 +828,8 @@ a {
 
 
 .box-video {
-    width: 600px;
-    height: 420px;
+    width: 1000px;
+    height: 900px;
     border-radius: 22px;
     margin-bottom: 35px;
 
@@ -845,11 +845,9 @@ a {
 }
 
 .video-cajutes {
-    width: 700px;  
-    height: 400px; 
-
+    width: 900px;  
+    height: 700px; 
     object-fit: cover; 
-
     display: block;
     border-radius: 15px;
 }
