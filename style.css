@@ -932,14 +932,13 @@ a {
     margin-bottom: 45px;
 }
 
-
 .contato-grid {
-    display: flex;
-    justify-content: center; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    max-width: 750px;                      
+    margin: 0 auto;                         
     gap: 25px;
-    flex-wrap: wrap;        
 }
-
 .contato-card {
     flex: 1;
     max-width: 350px;      
