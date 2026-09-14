@@ -826,33 +826,32 @@ a {
     margin-bottom: 40px;
 }
 
+
 .box-video {
-
     width: 100%;
-
     height: 420px;
-
     border-radius: 22px;
-
     margin-bottom: 35px;
 
     display: flex;
-
     align-items: center;
-
     justify-content: center;
 
-    background: var(--creme);
-
-    border: 3px dashed var(--verde-claro);
-}
-
-
-.box-video {
-
     background: var(--marrom);
+
+    overflow: hidden;
+
+    border: 3px solid var(--verde-claro);
 }
 
+.video-cajutes {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+}
 
 .placeholder {
 
