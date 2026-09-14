@@ -828,7 +828,7 @@ a {
 
 
 .box-video {
-    width: 100%;
+    width: 600px;
     height: 420px;
     border-radius: 22px;
     margin-bottom: 35px;
@@ -845,16 +845,14 @@ a {
 }
 
 .video-cajutes {
-    width: 260px;
-    height: 390px;
+    width: 700px;  
+    height: 400px; 
 
-    object-fit: contain;
+    object-fit: cover; 
 
     display: block;
-
     border-radius: 15px;
 }
-
 .placeholder {
 
     text-align: center;
