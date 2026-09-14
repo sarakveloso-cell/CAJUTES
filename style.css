@@ -1042,4 +1042,8 @@ footer small {
         font-size: 14px;
         padding: 8px 15px;
     }
+    .video-cajutes {
+    width: 220px;
+    height: 370px;
+}
 }
